@@ -2,7 +2,7 @@
 
 *** This is a Simple Data Communication Project created by Tate Swidorski in SUMMER SEMESTER 2025 ***
 
---------------------------------------------
+---
 
 ## Project Description
 
@@ -10,26 +10,31 @@ The assignment was to create a server and a client that used TCP. The project sp
 create a client that takes input from the user and sends it to server. When the server receives the 
 message it replies back with the same message but in reverse.
 
---------------------------------------------
+---
 
 ##  How To Use
 
-To clone repository:
+Clone the repository:
+``` bash
     git clone https://github.com/tatecswid/tcp-reverse-echo
     cd tcp-reverse-echo
+```
 
-
-[Windows]
+**Windows**
 Open up two command prompts and run these commands respectively:
-    python echo_server.py
-    python echo_client.py
-
-
-[Linux] Note: Run 'sudo apt install python3' if you don't have it yet
-Open two terminals and run these commands respectively:
+``` bash
     python3 echo_server.py
     python3 echo_client.py
+```
 
+
+**Linux** 
+Note: Run 'sudo apt install python3' if you don't have it yet
+Open two terminals and run these commands respectively:
+``` bash
+    python3 echo_server.py
+    python3 echo_client.py
+```
 --------------------------------------------
 
 ## Modification
