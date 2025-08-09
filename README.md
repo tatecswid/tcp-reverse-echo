@@ -1,6 +1,6 @@
 # Simple TPC Client-Server Reverse Echo Communication
 
-*** This is a Simple Data Communication Project created by Tate Swidorski in SUMMER SEMESTER 2025 ***
+***This is a Simple Data Communication Project created by Tate Swidorski in SUMMER SEMESTER 2025***
 
 ---
 
@@ -15,27 +15,31 @@ message it replies back with the same message but in reverse.
 ##  How To Use
 
 Clone the repository:
+
 ``` bash
     git clone https://github.com/tatecswid/tcp-reverse-echo
     cd tcp-reverse-echo
 ```
 
 **Windows**
+<br>
 Open up two command prompts and run these commands respectively:
+
 ``` bash
     python3 echo_server.py
     python3 echo_client.py
 ```
-
 
 **Linux** 
-Note: Run 'sudo apt install python3' if you don't have it yet
-Open two terminals and run these commands respectively:
+<br>
+Note: Run ```sudo apt install python3``` if you haven't installed python.
+<br> Open two terminals and run these commands respectively:
+
 ``` bash
     python3 echo_server.py
     python3 echo_client.py
 ```
---------------------------------------------
+---
 
 ## Modification
 
