@@ -17,8 +17,8 @@ message it replies back with the same message but in reverse.
 Clone the repository:
 
 ``` bash
-    git clone https://github.com/tatecswid/tcp-reverse-echo
-    cd tcp-reverse-echo
+git clone https://github.com/tatecswid/tcp-reverse-echo
+cd tcp-reverse-echo
 ```
 
 **Windows**
@@ -26,8 +26,8 @@ Clone the repository:
 Open up two command prompts and run these commands respectively:
 
 ``` bash
-    python3 echo_server.py
-    python3 echo_client.py
+python3 echo_server.py
+python3 echo_client.py
 ```
 
 **Linux** 
@@ -36,8 +36,8 @@ Note: Run ```sudo apt install python3``` if you haven't installed python.
 <br> Open two terminals and run these commands respectively:
 
 ``` bash
-    python3 echo_server.py
-    python3 echo_client.py
+python3 echo_server.py
+python3 echo_client.py
 ```
 ---
 
